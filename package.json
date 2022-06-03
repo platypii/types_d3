@@ -1,6 +1,6 @@
 {
   "name": "@platypii/d3",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "TypeScript definitions for D3 JS",
   "keywords": [
     "d3",
@@ -19,6 +19,7 @@
     "url": "https://github.com/platypii/types_d3/issues"
   },
   "dependencies": {
+    "@types/d3": "^7.4.0",
     "@types/d3-array": "^3.0.3",
     "@types/d3-axis": "^3.0.1",
     "@types/d3-brush": "^3.0.1",
@@ -50,6 +51,5 @@
     "@types/d3-transition": "^3.0.1",
     "@types/d3-zoom": "^3.0.1",
     "@types/geojson": "^7946.0.8"
-  },
-  "types": "index.d.ts"
+  }
 }
